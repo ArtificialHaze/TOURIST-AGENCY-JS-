@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    /> -->
+    <!-- <link 
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Main</title>
+  </head>
+  <body>
+    <a data-aos="fade-right" href="#home" class="float-btn"
+      ><i class="fas fa-circle-arrow-up"></i
+    ></a>
+    <header class="nav">
+      <a href="#" class="header-title">Travelinio</a>
+      <div class="mobileMenuToggle" onclick="toggleMenu()"></div>
+      <ul class="nav-item">
+        <li>
+          <a data-aos="fade-down" onclick="toggleMenu()" href="#about">about</a>
+        </li>
+        <li>
+          <a data-aos="fade-down" onclick="toggleMenu()" href="#season"
+            >season</a
+          >
+        </li>
+        <li>
+          <a data-aos="fade-down" onclick="toggleMenu()" href="#destination"
+            >destination</a
+          >
+        </li>
+        <li>
+          <a data-aos="fade-down" onclick="toggleMenu()" href="#package"
+            >package</a
+          >
+        </li>
+        <div class="space"></div>
+        <li>
+          <a data-aos="fade-up" onclick="toggleMenu()" href="#services"
+            >services</a
+          >
+        </li>
+        <li>
+          <a data-aos="fade-up" onclick="toggleMenu()" href="#gallery"
+            >gallery</a
+          >
+        </li>
+        <li>
+          <a data-aos="fade-up" onclick="toggleMenu()" href="#review">review</a>
+        </li>
+        <li>
+          <a data-aos="fade-up" onclick="toggleMenu()" href="#merchandise"
+            >merchandise</a
+          >
+        </li>
+      </ul>
+    </header>
+    <div class="home-section section" id="home">
+      <div class="container">
+        <div class="title-text" data-aos="fade-left">Awesome experience</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
+          doloribus!
+        </p>
+        <a href="#about" data-aos="fade-left" class="btn-1"
+          >Explore <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+    <div class="about-section section" id="about">
+      <div class="container">
+        <div class="about-text">
+          <div class="title-text" data-aos="fade-left">
+            Expand your experience <br />
+            <span> with us. </span>
+          </div>
+          <p data-aos="fade-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            quibusdam eaque recusandae at optio placeat facilis doloribus!
+            Animi, deserunt amet!
+          </p>
+          <div class="button">
+            <a href="#season" data-aos="fade-right" class="btn-1 style-2"
+              >Explore <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="about-image">
+          <div data-aos="fade-right" class="about-item">
+            <img src="[IMAGE-1]" alt="IMAGE-1" />
+          </div>
+          <div data-aos="fade-right" class="about-item">
+            <img src="[IMAGE-2]" alt="IMAGE-2" />
+          </div>
+          <div data-aos="fade-right" class="about-item">
+            <img src="[IMAGE-3]" alt="IMAGE-3" />
+          </div>
+          <div data-aos="fade-right" class="about-item">
+            <img src="[IMAGE-4]" alt="IMAGE-4" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="season-section section" id="season">
+      <div class="container">
+        <div class="title-text" data-aos="fade-left">
+          <span>Let's do it</span> <br />
+          Vacations <br />
+          get rid of your tiresome week.
+        </div>
+        <div class="section-box">
+          <div class="item-box" data-aos="fade-up">
+            <i class="fab fa-canadian-maple-leaf"></i>
+          </div>
+          <div class="item-box" data-aos="fade-up">
+            <i class="fas fa-snowflake"></i>
+          </div>
+          <div class="item-box" data-aos="fade-up">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="item-box" data-aos="fade-up">
+            <i class="fas fa-leaf"></i>
+          </div>
+        </div>
+        <div class="below-button">
+          <a href="#season" class="btn-1" data-aos="fade-left">
+            Load more <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="destination-section section" id="destination">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Explore beautiful lands</h2>
+          <span>Those are like our dreams.</span>
+        </div>
+        <div class="destination-container">
+          <div class="destination-item" data-aos="fade-down">
+            <img data-aos="fade-down" src="IMAGE-5" alt="IMAGE-5" />
+            <div data-aos="fade-down" class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="destination-item" data-aos="fade-down">
+            <img src="IMAGE-5" alt="IMAGE-5" />
+            <div class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="destination-item" data-aos="fade-down">
+            <img src="IMAGE-5" alt="IMAGE-5" />
+            <div class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i> -->
+            </div>
+          </div>
+          <div class="destination-item" data-aos="fade-down">
+            <img src="IMAGE-5" alt="IMAGE-5" />
+            <div class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="destination-item" data-aos="fade-down">
+            <img src="IMAGE-5" alt="IMAGE-5" />
+            <div class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="destination-item" data-aos="fade-down">
+            <img src="IMAGE-5" alt="IMAGE-5" />
+            <div class="destination-info">
+              <h2>Alpes</h2>
+              <span>Swisserland</span>
+            </div>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+          </div>
+        </div>
+        <div class="destination-button" onclick="showAllDestinations()">
+          <a href="#destination"><i class="fas fa-circle-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="package-section section" id="package">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Package</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="package-container">
+          <div data-aos="fade-down" class="package-item">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="info-box">
+              <div class="info-title">
+                <h2>Lamborghini</h2>
+                <h3>Italy</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$199.99</div>
+              </div>
+              <div class="info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                quia.
+              </div>
+              <a href="#" class="btn-1"
+                >Read more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div data-aos="fade-down" class="package-item">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="info-box">
+              <div class="info-title">
+                <h2>Lamborghini</h2>
+                <h3>Italy</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$199.99</div>
+              </div>
+              <div class="info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                quia.
+              </div>
+              <a href="#" class="btn-1"
+                >Read more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div data-aos="fade-down" class="package-item">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="info-box">
+              <div class="info-title">
+                <h2>Lamborghini</h2>
+                <h3>Italy</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$199.99</div>
+              </div>
+              <div class="info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                quia.
+              </div>
+              <a href="#" class="btn-1"
+                >Read more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="package-button" onclick="showAllPackages()">
+          <a href="#package"> <i class="fas fa-circle-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="service-section section" id="service">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Our service</h2>
+          <span>Services</span>
+        </div>
+        <div class="service-container">
+          <div class="service-item" data-aos="fade-down">
+            <div class="icon">
+              <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/rgyftmhc.json"
+                trigger="loop"
+                delay="2000"
+                style="width: 150px; height: 150px"
+              >
+              </lord-icon>
+            </div>
+            <div class="info">
+              <h2>Good price and big deals</h2>
+              <div class="star">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="service-item" data-aos="fade-down">
+            <div class="item-head">
+              <div class="icon">
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tgnqhsfe.json"
+                  trigger="loop"
+                  delay="2000"
+                  style="width: 150px; height: 150px"
+                >
+                </lord-icon>
+              </div>
+              <div class="info">
+                <h2>Good price and big deals</h2>
+                <div class="star">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                quidem commodi soluta, in aspernatur saepe dignissimos odit
+                veniam libero repellendus.
+              </p>
+            </div>
+          </div>
+          <div class="service-item" data-aos="fade-down">
+            <div class="item-head">
+              <div class="icon">
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                  src="https://cdn.lordicon.com/dxjqoygy.json"
+                  trigger="loop"
+                  delay="2000"
+                  style="width: 150px; height: 150px"
+                >
+                </lord-icon>
+              </div>
+              <div class="info">
+                <h2>Good price and big deals</h2>
+                <div class="star">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                quidem commodi soluta, in aspernatur saepe dignissimos odit
+                veniam libero repellendus.
+              </p>
+            </div>
+          </div>
+          <div class="service-item" data-aos="fade-down">
+            <div class="item-head">
+              <div class="icon">
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                  src="https://cdn.lordicon.com/gmzxduhd.json"
+                  trigger="loop"
+                  delay="2000"
+                  style="width: 150px; height: 150px"
+                >
+                </lord-icon>
+              </div>
+              <div class="info">
+                <h2>Good price and big deals</h2>
+                <div class="star">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item-body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                quidem commodi soluta, in aspernatur saepe dignissimos odit
+                veniam libero repellendus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-section section" id="gallery">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Memorials</h2>
+          <span>Gallery</span>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+        </div>
+        <div class="gallery-popup">
+          <i class="fas fa-circle-xmark"></i>
+          <div class="popup-item">
+            <img src="[IMAGE]" alt="IMAGE" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="review-section section" id="review">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Review</h2>
+          <span>What people think about us</span>
+        </div>
+        <div class="review-container">
+          <div data-aos="fade-down" class="review-item">
+            <div class="review-profile">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="review-banner">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div data-aos="fade-down" class="review-info">
+              <h2>Mike Dorsy</h2>
+              <div class="star">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatum itaque, quaerat possimus maiores repellat officiis
+                sapiente incidunt illo fuga vero!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="merchandise-section section" id="merchandise">
+      <div class="container">
+        <div data-aos="fade-down" class="title-text">
+          <h2>Merchandise</h2>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            accusantium!</span
+          >
+        </div>
+        <div class="row">
+          <div class="merchandise-tab">
+            <span data-target="all" class="tab-item active"> All </span>
+            <span data-target="bag" class="tab-item"> Bag </span>
+            <span data-target="jacket" class="tab-item"> Jacket </span>
+            <span data-target="shoes" class="tab-item"> Shoes </span>
+          </div>
+        </div>
+        <div class="merchandise-container">
+          <div
+            data-aos="fade-down"
+            class="merchandise-item"
+            data-category="bag"
+          >
+            <div class="merchandise-image">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="merchandise-info">
+              <div class="top">
+                <div class="type">Bag</div>
+                <h2>Travel</h2>
+              </div>
+              <div class="bottom">
+                <div class="price">$99.99</div>
+                <div class="cart">
+                  <i class="fas fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-down"
+            class="merchandise-item"
+            data-category="jacket"
+          >
+            <div class="merchandise-image">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="merchandise-info">
+              <div class="top">
+                <div class="type">Jacket</div>
+                <h2>Everyday</h2>
+              </div>
+              <div class="bottom">
+                <div class="price">$199.99</div>
+                <div class="cart">
+                  <i class="fas fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-down"
+            class="merchandise-item"
+            data-category="shoes"
+          >
+            <div class="merchandise-image">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="merchandise-info">
+              <div class="top">
+                <div class="type">Shoes</div>
+                <h2>Home</h2>
+              </div>
+              <div class="bottom">
+                <div class="price">$9.99</div>
+                <div class="cart">
+                  <i class="fas fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="container">
+        <div data-aos="fade-down" class="email-box" id="email-box">
+          <span>Enter your E-Mail here</span>
+          <div class="input-box">
+            <input
+              type="text"
+              placeholder="example@yahoo.com.."
+              class="email-input-box"
+            />
+            <div class="email-button">
+              <a href="#email-box">Send <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-box" id="footer-box">
+        <div class="row">
+          <div data-aos="fade-down" class="head-footer-title">
+            Start your Lorem, ipsum dolor.
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            explicabo natus hic ea quo quae. Eos hic dolorem recusandae fuga.
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div data-aos="fade-down" class="contact">
+            <span>example@gmail.com</span>
+            <span>+955 555 55 55 55</span>
+          </div>
+        </div>
+        <div class="row footer-link">
+          <div class="footer-item-box">
+            <div data-aos="fade-down" class="footer-head-title">resources</div>
+            <a href="#footer-box" class="footer-item">Documentation</a>
+            <a href="#footer-box" class="footer-item">aplication</a>
+            <a href="#footer-box" class="footer-item">system</a>
+            <a href="#footer-box" class="footer-item">F.A.Q.</a>
+          </div>
+          <div data-aos="fade-down" class="footer-item-box">
+            <div class="footer-head-title">resources</div>
+            <a href="#footer-box" class="footer-item">Documentation</a>
+            <a href="#footer-box" class="footer-item">aplication</a>
+            <a href="#footer-box" class="footer-item">Policy</a>
+            <a href="#footer-box" class="footer-item">system</a>
+            <a href="#footer-box" class="footer-item">F.A.Q.</a>
+          </div>
+          <div data-aos="fade-down" class="footer-item-box">
+            <div class="footer-head-title">resources</div>
+            <a href="#footer-box" class="footer-item">Documentation</a>
+            <a href="#footer-box" class="footer-item">aplication</a>
+            <a href="#footer-box" class="footer-item">system</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Created by DreamDevs. &copy; <a href="#">Travelinio</a> All rights
+        reserved.
+      </p>
+    </div>
+  </body>
+  <script src="./practice.js" defer></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
